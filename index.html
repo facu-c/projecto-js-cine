@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="javascript/main.js" defer></script>
+    <title>Proyecto Cine</title>
+</head>
+<body>
+    
+    <div class="layout">
+        <header class="header">
+            <div class="logo">
+                <div class="play"></div>
+            </div>
+            <h1>MisPelis</h1>
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Peliculas</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <section id="content" class="content">
+            <article class="peli-item">
+                <h3 class="title">Desarrollo web</h3>
+                <p class="description">
+                    Descripcion
+                </p>
+                <button class="edit">Editar</button>
+                <button class="delete">Borrar</button>
+            </article>
+        </section>
+        <aside class="lateral">
+            <div class="search">
+                <h3 class="title">Buscador</h3>
+                <form action="">
+                    <input type="text" id="search_field">
+                    <button id="search" class="buscar">Buscar</button>
+                </form>
+            </div>
+            <div class="add">
+                <h3 class="title">Añadir pelicula</h3>
+                <form action="">
+                    <input id="title" type="text" placeholder="Titulo">
+                    <textarea id="description" placeholder="Descripcion" cols="30" rows="10"></textarea>
+                    <input id="save" type="submit" value="Guardar">
+                </form>
+            </div>
+        </aside>
+        <footer class="footer">
+            &copy; Master en Javascript ES12 y TypeScript
+        </footer>
+    </div>
+
+</body>
+</html>
